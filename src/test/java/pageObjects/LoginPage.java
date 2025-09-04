@@ -21,6 +21,8 @@ public class LoginPage extends BasePage{
 	@FindBy(xpath="//input[@value='Login']")
 	WebElement buttonlogin;
 	
+	@FindBy(xpath="//a[normalize-space()='Qafox.com']")
+	WebElement dashboard;
 	
 	
 	public void clickemail(String email)
@@ -35,6 +37,11 @@ public class LoginPage extends BasePage{
 	public void clicklogin()
 	{
 		buttonlogin.click();
+	}
+	
+	public void mainpage()
+	{
+		dashboard.click();
 	}
 
 

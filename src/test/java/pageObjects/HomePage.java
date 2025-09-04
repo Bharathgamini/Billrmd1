@@ -21,6 +21,15 @@ public class HomePage extends BasePage{
 	@FindBy(linkText = "Login")
 	WebElement btnlogin;
 	
+	@FindBy(xpath = "//div[@id='content']//div[1]//div[1]//div[3]//button[1]")
+	WebElement Addtocart;
+	
+	@FindBy(xpath = "//button[@data-loading-text='Loading...']")
+	WebElement gotocart;
+	
+	@FindBy(xpath = "//strong[normalize-space()='Checkout']")
+	WebElement checkout;
+	
 	
 	
 	public void clickmyaccount()
@@ -36,5 +45,17 @@ public class HomePage extends BasePage{
 	{
 		btnlogin.click();
 	}
-
+	
+	public void clickaddtocart()
+	{
+		Addtocart.click();
+	}
+	public void goingtocart()
+	{
+		gotocart.click();
+	}
+	public void checkoutorder()
+	{
+		checkout.click();
+	}
 }

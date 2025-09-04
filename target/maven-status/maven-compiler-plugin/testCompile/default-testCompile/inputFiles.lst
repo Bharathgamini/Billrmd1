@@ -7,6 +7,7 @@
 /Users/admine/Documents/WorkSpace_Selenium/Billrmd1/src/test/java/testCases/TC001_AccountRegistrationTest.java
 /Users/admine/Documents/WorkSpace_Selenium/Billrmd1/src/test/java/testCases/TC002_LoginTest.java
 /Users/admine/Documents/WorkSpace_Selenium/Billrmd1/src/test/java/testCases/TC003_LoginDDT.java
+/Users/admine/Documents/WorkSpace_Selenium/Billrmd1/src/test/java/testCases/TC004_Verificationcase.java
 /Users/admine/Documents/WorkSpace_Selenium/Billrmd1/src/test/java/utilities/DataProviders.java
 /Users/admine/Documents/WorkSpace_Selenium/Billrmd1/src/test/java/utilities/ExcelUtility.java
 /Users/admine/Documents/WorkSpace_Selenium/Billrmd1/src/test/java/utilities/ExtentReportUtility.java
